@@ -116,7 +116,7 @@ export default async function Home() {
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
             </TableCell>
-            <TableCell className="bg-slate-500 pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
+            <TableCell className="bg-slate-500 text-center"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
           </TableRow>
         </TableBody>
       </Table>
