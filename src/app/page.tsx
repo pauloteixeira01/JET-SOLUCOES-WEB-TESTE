@@ -25,7 +25,7 @@ export default async function Home() {
           <TableRow key="1">
             <TableCell className="flex items-center">
               <img src="/car.jpeg" alt="cara" width="80"/>
-              <p className="ml-2">Mini Cooper 2020</p>
+              <p className="ml-4">Mini Cooper 2020</p>
             </TableCell>
             <TableCell><p className="text-gray-500">11/07</p></TableCell>
             <TableCell><p className="text-green-700 font-semibold pl-5">Available</p></TableCell>
@@ -41,7 +41,7 @@ export default async function Home() {
           <TableRow key="2">
             <TableCell className="flex items-center">
               <img src="/car.jpeg" alt="cara" width="80"/>
-              <p className="ml-2">Mini Cooper 2020</p>
+              <p className="ml-4">Mini Cooper 2020</p>
             </TableCell>
             <TableCell><p className="text-gray-500">11/07</p></TableCell>
             <TableCell><p className="text-green-700 font-semibold pl-5">Available</p></TableCell>
@@ -57,7 +57,7 @@ export default async function Home() {
           <TableRow key="3">
             <TableCell className="flex items-center">
               <img src="/car.jpeg" alt="cara" width="80"/>
-              <p className="ml-2">Mini Cooper 2020</p>
+              <p className="ml-4">Mini Cooper 2020</p>
             </TableCell>
             <TableCell><p className="text-gray-500">11/07</p></TableCell>
             <TableCell><p className="text-green-700 font-semibold pl-5">Available</p></TableCell>
@@ -73,7 +73,7 @@ export default async function Home() {
           <TableRow key="4">
             <TableCell className="flex items-center">
               <img src="/car.jpeg" alt="cara" width="80"/>
-              <p className="ml-2">Mini Cooper 2020</p>
+              <p className="ml-4">Mini Cooper 2020</p>
             </TableCell>
             <TableCell><p className="text-gray-500">11/07</p></TableCell>
             <TableCell><p className="text-green-700 font-semibold pl-5">Available</p></TableCell>
@@ -89,7 +89,7 @@ export default async function Home() {
           <TableRow key="5">
             <TableCell className="flex items-center">
               <img src="/car.jpeg" alt="cara" width="80"/>
-              <p className="ml-2">Mini Cooper 2020</p>
+              <p className="ml-4">Mini Cooper 2020</p>
             </TableCell>
             <TableCell><p className="text-gray-500">11/07</p></TableCell>
             <TableCell><p className="text-green-700 font-semibold pl-5">Available</p></TableCell>
@@ -105,7 +105,7 @@ export default async function Home() {
           <TableRow key="6">
             <TableCell className="flex items-center">
               <img src="/car.jpeg" alt="cara" width="80"/>
-              <p className="ml-2">Mini Cooper 2020</p>
+              <p className="ml-4">Mini Cooper 2020</p>
             </TableCell>
             <TableCell><p className="text-gray-500">11/07</p></TableCell>
             <TableCell><p className="text-green-700 font-semibold pl-5">Available</p></TableCell>
