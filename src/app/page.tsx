@@ -12,8 +12,8 @@ import {
 
 export default async function Home() {
   return (
-    <div className="w-full h-lvh flex justify-center">
-      <Table className="w-2/3 flex justify-center items-center">
+    <div className="w-full h-lvh flex justify-center items-center">
+      <Table className="w-2/3">
         <TableHeader>
           <TableColumn className="text-gray-400">CAR</TableColumn>
           <TableColumn className="text-gray-400">NEXT RESERVATION</TableColumn>
@@ -21,6 +21,7 @@ export default async function Home() {
           <TableColumn className="text-gray-400">RATING</TableColumn>
           <TableColumn className="text-gray-400">ACTIONS</TableColumn>
         </TableHeader>
+
         <TableBody>
           <TableRow key="1">
             <TableCell className="flex justify-center items-center">
@@ -38,6 +39,7 @@ export default async function Home() {
             </TableCell>
             <TableCell className="pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
           </TableRow>
+
           <TableRow key="2">
             <TableCell className="flex justify-center items-center">
               <img src="/car.jpeg" alt="cara" width="80"/>
