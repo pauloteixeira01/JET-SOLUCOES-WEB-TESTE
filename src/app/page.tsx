@@ -13,7 +13,7 @@ import {
 export default async function Home() {
   return (
     <div>
-      <Table className="w-full">
+      <Table className="w-full flex justify-center items-center">
         <TableHeader>
           <TableColumn className="text-gray-400">CAR</TableColumn>
           <TableColumn className="text-gray-400">NEXT RESERVATION</TableColumn>
