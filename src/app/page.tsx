@@ -12,8 +12,8 @@ import {
 
 export default async function Home() {
   return (
-    <div className="w-full h-lvh">
-      <Table aria-label="Example static collection table" className="border border-solid border-inherit">
+    <div>
+      <Table>
         <TableHeader>
           <TableColumn className="text-gray-400">CAR</TableColumn>
           <TableColumn className="text-gray-400">NEXT RESERVATION</TableColumn>
