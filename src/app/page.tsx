@@ -13,7 +13,7 @@ import {
 export default async function Home() {
   return (
     <div>
-      <Table>
+      <Table className="w-full">
         <TableHeader>
           <TableColumn className="text-gray-400">CAR</TableColumn>
           <TableColumn className="text-gray-400">NEXT RESERVATION</TableColumn>
