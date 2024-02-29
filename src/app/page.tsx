@@ -116,7 +116,7 @@ export default async function Home() {
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
             </TableCell>
-            <TableCell className="flex justify-center items-center pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
+            <TableCell className="pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
           </TableRow>
         </TableBody>
       </Table>
