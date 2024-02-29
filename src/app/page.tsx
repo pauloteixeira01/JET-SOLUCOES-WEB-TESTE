@@ -1,32 +1,125 @@
-/** @format */
+'use client'
 
-import { CardContent } from "@/app/components/card";
-import SalesCard from "@/app/components/sales-card";
-import {userSalesData} from './utils/data-table'
-import Image from 'next/image'
+import React from "react";
+import {
+  Table, 
+  TableHeader, 
+  TableColumn, 
+  TableBody, 
+  TableRow, 
+  TableCell
+} from "@nextui-org/react";
 
 export default async function Home() {
   return (
-    <div className="h-lvh flex flex-col justify-around items-center bg-gray-900">
-      <div className="flex flex-none flex-col items-center">
-        <Image
-          src="/logo-jet-minimalist-white.svg"
-          width={90}
-          height={90}
-          alt="Picture of the author"
-        />
-        <p>JET SOLUÇÕES WEB</p>
-      </div>
-      
-      <section className="w-full grid grid-cols-1 gap-5 lg:w-2/3">
-        <CardContent className="flex justify-between gap-5">
-          <h3 className="text-center mb-10">Table responsiva pedida no teste</h3>
-          {userSalesData.map((d, i) => (
-            <SalesCard key={i} phone={d.phone} name={d.name} date={d.date} />
-          ))}
-        </CardContent>
-      </section>
-      
-    </div>  
+    <div className="w-full h-lvh">
+      <Table aria-label="Example static collection table" className="border border-solid border-inherit">
+        <TableHeader>
+          <TableColumn className="text-gray-400">CAR</TableColumn>
+          <TableColumn className="text-gray-400">NEXT RESERVATION</TableColumn>
+          <TableColumn className="text-gray-400">STATUS</TableColumn>
+          <TableColumn className="text-gray-400">RATING</TableColumn>
+          <TableColumn className="text-gray-400">ACTIONS</TableColumn>
+        </TableHeader>
+        <TableBody>
+          <TableRow key="1">
+            <TableCell className="flex items-center">
+              <img src="/car.jpeg" alt="cara" width="80"/>
+              <p className="ml-2">Mini Cooper 2020</p>
+            </TableCell>
+            <TableCell><p className="text-gray-500">11/07</p></TableCell>
+            <TableCell><p className="text-green-700 font-semibold pl-5">Available</p></TableCell>
+            <TableCell className="flex items-center">
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+            </TableCell>
+            <TableCell className="pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
+          </TableRow>
+          <TableRow key="2">
+            <TableCell className="flex items-center">
+              <img src="/car.jpeg" alt="cara" width="80"/>
+              <p className="ml-2">Mini Cooper 2020</p>
+            </TableCell>
+            <TableCell><p className="text-gray-500">11/07</p></TableCell>
+            <TableCell><p className="text-green-700 font-semibold pl-5">Available</p></TableCell>
+            <TableCell className="flex items-center">
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+            </TableCell>
+            <TableCell className="pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
+          </TableRow>
+          <TableRow key="3">
+            <TableCell className="flex items-center">
+              <img src="/car.jpeg" alt="cara" width="80"/>
+              <p className="ml-2">Mini Cooper 2020</p>
+            </TableCell>
+            <TableCell><p className="text-gray-500">11/07</p></TableCell>
+            <TableCell><p className="text-green-700 font-semibold pl-5">Available</p></TableCell>
+            <TableCell className="flex items-center">
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+            </TableCell>
+            <TableCell className="pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
+          </TableRow>
+          <TableRow key="4">
+            <TableCell className="flex items-center">
+              <img src="/car.jpeg" alt="cara" width="80"/>
+              <p className="ml-2">Mini Cooper 2020</p>
+            </TableCell>
+            <TableCell><p className="text-gray-500">11/07</p></TableCell>
+            <TableCell><p className="text-green-700 font-semibold pl-5">Available</p></TableCell>
+            <TableCell className="flex items-center">
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+            </TableCell>
+            <TableCell className="pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
+          </TableRow>
+          <TableRow key="5">
+            <TableCell className="flex items-center">
+              <img src="/car.jpeg" alt="cara" width="80"/>
+              <p className="ml-2">Mini Cooper 2020</p>
+            </TableCell>
+            <TableCell><p className="text-gray-500">11/07</p></TableCell>
+            <TableCell><p className="text-green-700 font-semibold pl-5">Available</p></TableCell>
+            <TableCell className="flex items-center">
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+            </TableCell>
+            <TableCell className="pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
+          </TableRow>
+          <TableRow key="6">
+            <TableCell className="flex items-center">
+              <img src="/car.jpeg" alt="cara" width="80"/>
+              <p className="ml-2">Mini Cooper 2020</p>
+            </TableCell>
+            <TableCell><p className="text-gray-500">11/07</p></TableCell>
+            <TableCell><p className="text-green-700 font-semibold pl-5">Available</p></TableCell>
+            <TableCell className="flex items-center">
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+              <img src="/star-rate.svg" alt="cara" width="30"/>
+            </TableCell>
+            <TableCell className="pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
+          </TableRow>
+        </TableBody>
+      </Table>
+    </div>
   );
 }
