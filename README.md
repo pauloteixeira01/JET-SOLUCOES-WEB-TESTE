@@ -36,6 +36,11 @@ yarn
 yarn dev
 ```
 
+### Link do projeto na vercel
+```
+https://jet-solucoes-web-teste.vercel.app/
+```
+
 <h3 align="center">Desktop</h3>
 <img src="src/app/assets/desktop.png" width="100%"  />
 <h3 align="center">Mobile</h3>
