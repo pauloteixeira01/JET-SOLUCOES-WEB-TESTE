@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 export default async function Home() {
   return (
-    <div className="h-lvh flex flex-col justify-around items-center">
+    <div className="h-lvh flex flex-col justify-around items-center bg-gray-900">
       <div className="flex flex-none flex-col items-center">
         <Image
           src="/logo-jet-minimalist-white.svg"
