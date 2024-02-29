@@ -27,96 +27,96 @@ export default async function Home() {
               <img src="/car.jpeg" alt="cara" width="80"/>
               <p className="ml-4">Mini Cooper 2020</p>
             </TableCell>
-            <TableCell><p className="text-gray-500">11/07</p></TableCell>
-            <TableCell><p className="text-green-700 font-semibold pl-5">Available</p></TableCell>
-            <TableCell className="flex items-center">
+            <TableCell><p className="flex justify-center items-center text-gray-500">11/07</p></TableCell>
+            <TableCell><p className="flex justify-center items-center text-green-700 font-semibold pl-5">Available</p></TableCell>
+            <TableCell className="flex justify-center items-center">
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
             </TableCell>
-            <TableCell className="pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
+            <TableCell className="flex justify-center items-center pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
           </TableRow>
           <TableRow key="2">
-            <TableCell className="flex items-center">
+            <TableCell className="flex justify-center items-center">
               <img src="/car.jpeg" alt="cara" width="80"/>
               <p className="ml-4">Mini Cooper 2020</p>
             </TableCell>
-            <TableCell><p className="text-gray-500">11/07</p></TableCell>
-            <TableCell><p className="text-green-700 font-semibold pl-5">Available</p></TableCell>
-            <TableCell className="flex items-center">
+            <TableCell><p className="flex justify-center items-center text-gray-500">11/07</p></TableCell>
+            <TableCell><p className="flex justify-center items-center text-green-700 font-semibold pl-5">Available</p></TableCell>
+            <TableCell className="flex justify-center items-center">
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
             </TableCell>
-            <TableCell className="pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
+            <TableCell className="flex justify-center items-center pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
           </TableRow>
           <TableRow key="3">
-            <TableCell className="flex items-center">
+            <TableCell className="flex justify-center items-center">
               <img src="/car.jpeg" alt="cara" width="80"/>
               <p className="ml-4">Mini Cooper 2020</p>
             </TableCell>
-            <TableCell><p className="text-gray-500">11/07</p></TableCell>
-            <TableCell><p className="text-green-700 font-semibold pl-5">Available</p></TableCell>
-            <TableCell className="flex items-center">
+            <TableCell><p className="flex justify-center items-center text-gray-500">11/07</p></TableCell>
+            <TableCell><p className="flex justify-center items-center text-green-700 font-semibold pl-5">Available</p></TableCell>
+            <TableCell className="flex justify-center items-center">
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
             </TableCell>
-            <TableCell className="pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
+            <TableCell className="flex justify-center items-center pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
           </TableRow>
           <TableRow key="4">
-            <TableCell className="flex items-center">
+            <TableCell className="flex justify-center items-center">
               <img src="/car.jpeg" alt="cara" width="80"/>
               <p className="ml-4">Mini Cooper 2020</p>
             </TableCell>
-            <TableCell><p className="text-gray-500">11/07</p></TableCell>
-            <TableCell><p className="text-green-700 font-semibold pl-5">Available</p></TableCell>
-            <TableCell className="flex items-center">
+            <TableCell><p className="flex justify-center items-center text-gray-500">11/07</p></TableCell>
+            <TableCell><p className="flex justify-center items-center text-green-700 font-semibold pl-5">Available</p></TableCell>
+            <TableCell className="flex justify-center items-center">
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
             </TableCell>
-            <TableCell className="pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
+            <TableCell className="flex justify-center items-center pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
           </TableRow>
           <TableRow key="5">
-            <TableCell className="flex items-center">
+            <TableCell className="flex justify-center items-center">
               <img src="/car.jpeg" alt="cara" width="80"/>
               <p className="ml-4">Mini Cooper 2020</p>
             </TableCell>
-            <TableCell><p className="text-gray-500">11/07</p></TableCell>
-            <TableCell><p className="text-green-700 font-semibold pl-5">Available</p></TableCell>
-            <TableCell className="flex items-center">
+            <TableCell><p className="flex justify-center items-center text-gray-500">11/07</p></TableCell>
+            <TableCell><p className="flex justify-center items-center text-green-700 font-semibold pl-5">Available</p></TableCell>
+            <TableCell className="flex justify-center items-center">
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
             </TableCell>
-            <TableCell className="pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
+            <TableCell className="flex justify-center items-center pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
           </TableRow>
           <TableRow key="6">
-            <TableCell className="flex items-center">
+            <TableCell className="flex justify-center items-center">
               <img src="/car.jpeg" alt="cara" width="80"/>
               <p className="ml-4">Mini Cooper 2020</p>
             </TableCell>
-            <TableCell><p className="text-gray-500">11/07</p></TableCell>
-            <TableCell><p className="text-green-700 font-semibold pl-5">Available</p></TableCell>
-            <TableCell className="flex items-center">
+            <TableCell><p className="flex justify-center items-center text-gray-500">11/07</p></TableCell>
+            <TableCell><p className="flex justify-center items-center text-green-700 font-semibold pl-5">Available</p></TableCell>
+            <TableCell className="flex justify-center items-center">
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
             </TableCell>
-            <TableCell className="pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
+            <TableCell className="flex justify-center items-center pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
           </TableRow>
         </TableBody>
       </Table>
