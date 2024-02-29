@@ -102,7 +102,7 @@ export default async function Home() {
             </TableCell>
             <TableCell className="pl-6"><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
           </TableRow>
-          <TableRow key="6">
+          <TableRow key="6" className="bg-slate-500 flex justify-center ...">
             <TableCell className="flex justify-center items-center">
               <img src="/car.jpeg" alt="cara" width="80"/>
               <p className="ml-4">Mini Cooper 2020</p>
@@ -116,7 +116,7 @@ export default async function Home() {
               <img src="/star-rate.svg" alt="cara" width="30"/>
               <img src="/star-rate.svg" alt="cara" width="30"/>
             </TableCell>
-            <TableCell className="bg-slate-500 flex justify-center ..."><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
+            <TableCell><img src="/dots-three-vertical.svg" alt="cara" width="40"/></TableCell>
           </TableRow>
         </TableBody>
       </Table>
